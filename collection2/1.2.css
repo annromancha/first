@@ -27,7 +27,7 @@ body{
 }
 #last{
     float: right;
-    padding-top: 30px;
+    padding-top: 14px;
     padding-right: 100;
 }
 #first{
@@ -67,6 +67,9 @@ body{
     outline: 1px solid #000;
     border: none;
 }
+.buttOne:hover {
+    background-color: #c2c4bf;
+}
 .img{
     margin: 10px;
 
@@ -98,7 +101,7 @@ h2{
 }
 .footer{
     width: 100%;
-    height: 800px;
+    height: 40%;
     background-color: #f2f2f2;
     display: inline-block;
 
@@ -178,8 +181,9 @@ h3{
 }
 .search{
     margin-bottom: 40px;
+    border:none;
     border-bottom: 1px solid grey;
-
+    width: 237px;
     background-color: #f2f2f2;
 
 }
@@ -189,6 +193,37 @@ h3{
 .all{
     display: inline-block;
 }
+.text_curs{
+    font-family: cursive;
+}
+
+
+.search_form input[type=text]
+{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    width:200px;
+
+    min-height: 28px;
+    padding: 4px 20px 4px 8px;
+    font-size: 12px;
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+
+
+.search_form input[type=text]:focus
+{
+    width: 400px;
+    border-color: #51a7e8;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1),0 0 5px rgba(81,167,232,0.5);
+    outline: none;
+}
+
+
 
 
 
