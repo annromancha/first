@@ -3,12 +3,14 @@
 }
 .table{
     position: inherit;
-    width: 500px;
-    height: 300px;
+    width: 300px
+    height: 500px;
+
+
 }
 .header{
     text-align: center;
-    background-color: #A52A2A;
+    background-color: linen;
     height: 100px;
     width: 100%;
     box-sizing: clearfix;
@@ -23,7 +25,6 @@
     border-radius: 10px;
 }
 .area{
-        background-color: #FFF8DC;
         margin-left: 70px;
         height: auto;
         max-width: 90%;
@@ -34,12 +35,20 @@ h3{
 }
 .first {
     align-content: center;
-    height: 750px;
+    height: auto;
     width: 100%;
+
 }
 
 .h3{
     text-align: center;
     font-family: Comic Sans MS;
+}
+.web{
+    border: 1px solid crimson;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+
 }
 
