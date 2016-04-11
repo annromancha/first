@@ -1,13 +1,14 @@
 .table_backgr{
     position: absolute;
+    border: 1px solid black;
+    width: 40%;
+    height: 40%;
 }
-.table{
+/*.table{
     position: inherit;
     width: 300px
     height: 500px;
-
-
-}
+}*/
 .header{
     text-align: center;
     background-color: linen;
@@ -25,9 +26,9 @@
     border-radius: 10px;
 }
 .area{
-        margin-left: 70px;
-        height: auto;
-        max-width: 90%;
+    margin-left: 70px;
+    height: auto;
+    max-width: 90%;
 }
 
 h3{
@@ -44,11 +45,3 @@ h3{
     text-align: center;
     font-family: Comic Sans MS;
 }
-.web{
-    border: 1px solid crimson;
-    width: 400px;
-    height: 200px;
-    position: absolute;
-
-}
-

@@ -1,0 +1,45 @@
+.table_backgr{
+    position: absolute;
+}
+.table{
+    position: inherit;
+    width: 500px;
+    height: 300px;
+}
+.header{
+    text-align: center;
+    background-color: #A52A2A;
+    height: 100px;
+    width: 100%;
+    box-sizing: clearfix;
+    padding-top:2px;
+    margin-bottom: 30px;
+}
+.robot {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.area{
+        background-color: #FFF8DC;
+        margin-left: 70px;
+        height: auto;
+        max-width: 90%;
+}
+
+h3{
+    text-align: center;
+}
+.first {
+    align-content: center;
+    height: 750px;
+    width: 100%;
+}
+
+.h3{
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
