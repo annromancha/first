@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
 
     var width = $('.slidesContainer').width();
@@ -27,24 +29,26 @@ $(document).ready(function() {
             $('.slide').css('margin-left', 0);
         });
     }
-    function start() {
-        for (i = 0; i < 5; i++) {
-
+    $('.start').click(function start() {
+             for (i =0; i < 5; i++) {
             $('.slide').animate({
                 'margin-left': -width
             }, 5000, function () {
                 $('.slide>li:first-child').appendTo('.slide');
                 $('.slide').css('margin-left', 0);
             });
+            i=i+1;
         };
-    };
 
-    //кнопочки
+    });
+    $('.stop').click(function stop(){
+        $('.slide').stop();
+    });
+//кнопочки
     $('.next').click(nextSlide);
     $('.last').click(prevSlide);
-    $('.start').click(start);
-
-
+    //$('.start').click(start());
+    //$('.stop').click(stop());
 
 
 });
