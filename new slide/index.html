@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <title>slide show</title>
+    <link rel='stylesheet' type='text/css' href='style.css'/>
+    <script type='text/javascript' src='script.js'></script>
+</head>
+<body>
+
+    <div class="viewport">
+        <button id="prev" class="butt">Previous</button>
+        <ul class="slidewrapper" data-current="0">
+
+            <li  class="slide">
+                <img id="itemOne" src="http://www.magic4walls.com/wp-content/uploads/2013/12/bicycle-city-street-fence-hd-wallpaper.jpg">
+            </li>
+            <li  class="slide">
+                <img id="itemTwo" src="http://digitalresult.com/wp-content/uploads/2015/09/retro-vintage-hd-wallpapers-49.jpeg">
+            </li>
+            <li  class="slide">
+                <img id="itemThree" src="http://freewallsup.com/wp-content/uploads/2014/11/bicycle-city-street-hd-wallpaper-1680x1050.jpg">
+            </li>
+
+        </ul>
+
+        <button id="next" class="butt">Next</button>
+    </div><br>
+    <div id="navLinks">
+        <ul class="slideitem" data-current="0">
+            <li id="linkZer" class="itemLinks" data-pos="0px"></li>
+            <li id="linkOne" class="itemLinks" data-pos="-550px"></li>
+            <li id="linkTwo" class="itemLinks" data-pos="-1100px"></li>
+        </ul>
+    </div>
+
+</body>
+</html>

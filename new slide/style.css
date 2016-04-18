@@ -1,0 +1,93 @@
+.viewport{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    left: 200px;
+    top: 40px;
+}
+.slidewrapper{
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    width: 9000px;
+    position: relative;
+}
+.slide{
+    width: 800px;
+    height: 300px;
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+    position: relative;
+}
+
+img{
+    width: 780px;
+    height: 500px;
+    border-radius: 20px;
+}
+.butt{
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    z-index: 1000;
+    opacity: 0.5;
+    background-color: antiquewhite;
+}
+#next{
+    float: right;
+    top: 200px;
+    right:0;
+
+}
+#prev{
+    float: left;
+    top: 200px;
+
+
+}
+body{
+    background-color: ghostwhite;
+}
+
+#navLinks {
+    text-align: center;
+    width: 550px;
+    position: absolute;
+    left: 350px;
+}
+#navLinks ul {
+    padding: 0px;
+    display: inline-block;
+    margin-top: 6px;
+}
+#navLinks ul li {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+
+    padding: 5px;
+    border-radius: 50%;
+    border: black 5px solid;
+}
+#linkZer{
+    background-color: #A52A2A;
+}
+#navLinks ul li:hover {
+    background-color: #FFFF00;
+}
+.active {
+    background-color: #A52A2A;
+    color: #FFFFFF;
+    outline-width: 7px;
+}
+.activeHover {
+    background-color: #484848;
+    color: #FFFFFF;
+}
